@@ -10,16 +10,12 @@ import org.junit.Test;
 
 public class ListActivityTest2 {
 
-	@BeforeClass
+    @BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		
-		
 	}
 
-	@AfterClass
+    @AfterClass
 	public static void tearDownAfterClass() throws Exception {
-		
-		
 	}
 
 	@Before
@@ -33,20 +29,19 @@ public class ListActivityTest2 {
 
 	@Test
 	public void test() {
-		
-		System.out.println(temp);
-		fail("Not yet implemented");
-	}
-	@Test
-	public void test1() {
-		System.out.println(temp);
-		fail("Not yet implemented");
-	}
-	@Test
-	public void test2() {
-		System.out.println(temp);
+        System.out.println(String temp);
 		fail("Not yet implemented");
 	}
 	
-
+	@Test
+    public void test1() {
+		System.out.println(String temp);
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	public void test2() {
+		System.out.println(String temp);
+		fail("Not yet implemented");
+	}
 }
